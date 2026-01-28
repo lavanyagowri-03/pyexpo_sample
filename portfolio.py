@@ -23,4 +23,4 @@ elif menu == "Contact":
     email = st.text_input("Enter your email")
     msg = st.text_area("Your message")
     if st.button("Send"):
-        st.success("Message sent successfully ✅")
+        st.success("Message sent successfully ")
